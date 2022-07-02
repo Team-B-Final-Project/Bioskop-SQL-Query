@@ -1,5 +1,5 @@
 CREATE TABLE reservations (
-   reservation_id serial4 primary key auto_increment,
+   reservation_id serial4 primary key,
    user_id int not null,
    schedule_id int not null,
    is_active boolean,
